@@ -1,6 +1,6 @@
 # Log-Euclidean and DTI Introduction
 > This repository contains resources that helps in the understanding of Diffusion Tensor Imaging processing using the
-Log-Euclidean framework.
+Log-Euclidean framework. It is recommended to read the proposed articles in order to fully understand the Jupyter Notebook.
 
 ## Articles
 ### Diffusion Tensor Imaging - Basics
@@ -31,11 +31,10 @@ Log-Euclidean framework.
     - For Pycharm: https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html
 3. Install the dependencies: 
     - Install Pytorch from https://pytorch.org/
-    - Install other libraries: pip install requirements.txt
+    - Install other libraries: pip install -r requirements.txt
 4. Install a Jupyter kernel
     - ipython kernel install --user --name=.venv
     - See: https://medium.com/@eleroy/jupyter-notebook-in-a-virtual-environment-virtualenv-8f3c3448247
 5. Run Jupyter and select the provided Jupyter notebook
     - jupyter notebook
     - Select LogEuclideanIntro.ipynb and make sure that the selected kernel is : .venv
-6. Enjoy ! :)
