@@ -3,10 +3,10 @@
 Log-Euclidean framework. It is recommended to read the proposed articles in order to fully understand the Jupyter Notebook.
 
 ## Articles
-### Diffusion Tensor Imaging - Basics
+### Diffusion Tensor Imaging Basics
  - Mori, S., & Zhang, J. (2006). Principles of Diffusion Tensor Imaging and Its Applications to Basic Neuroscience Research.
  - Maier-Hein, K. H., Neher, P. F., Houde, J.-C., Côté, M.-A., Garyfallidis, E., Zhong, J., … Descoteaux, M. (2017). The challenge of mapping the human connectome based on diffusion tractography. Nature Communications
-### Log-Euclidean - Basics
+### Log-Euclidean Framework
  - Arsigny, V., Fillard, P., Pennec, X., & Ayache, N. (2006). Log-Euclidean metrics for fast and simple calculus on diffusion tensors. Magnetic Resonance in Medicine
  - Arsigny, V., Fillard, P., Pennec, X., & Ayache, N. (2006). Geometric means in a novel vector space structure on symmetric positive-definite matrices. SIAM Journal on Matrix Analysis and Applications
 ### Generative Adversarial Networks (GANs)
