@@ -1,6 +1,6 @@
 #  <img src="/icons/icon.png" width="90" vertical-align="bottom">Log-Euclidean and DTI Introduction
 > This repository contains resources that helps in the understanding of Diffusion Tensor Imaging processing using the
-Log-Euclidean framework. It is recommended to read the proposed articles in order to fully understand the Jupyter Notebook.
+Log-Euclidean framework. It is recommended to read the proposed articles in order to fully appreciate the Jupyter Notebook.
 
 ## Articles
 ### Diffusion Tensor Imaging Basics
