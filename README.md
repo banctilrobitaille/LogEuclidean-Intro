@@ -32,7 +32,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
 - Pytorch: https://pytorch.org/
 - Kerosene: https://github.com/banctilrobitaille/kerosene
 
-## Log-Euclidean Introduction Notebook
+## <img src="/icons/code.png" width="120" vertical-align="bottom"> Log-Euclidean Introduction Notebook
 1. Clone the project
     - git clone https://github.com/banctilrobitaille/LogEuclidean-Intro.git
 2. Setup a virtual environment
