@@ -9,6 +9,8 @@ scipy==1.2.1
 torch>=1.1
 torchvision>=0.2.1
 torch-kerosene>=0.2.2
+torch-vectorized
 matplotlib
 ipython
 jupyter
+seaborn
