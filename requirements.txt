@@ -14,3 +14,4 @@ matplotlib
 ipython
 jupyter
 seaborn
+dipy

@@ -18,13 +18,22 @@ class SliceType(Enum):
 class ImageSlicer(object):
 
     @staticmethod
-    def get_slice(image: np.array, slice_type: SliceType, normalize=False):
+    def get_slice(image: np.array, slice_type: SliceType, normalize=False, MNI_space=False):
         if slice_type == SliceType.SAGITAL:
-            slice = np.rot90(image[..., int(image.shape[1] / 2), :, :], axes=(1, 2))
+            if not MNI_space:
+                slice = np.rot90(image[..., int(image.shape[1] / 2), :, :], axes=(1, 2))
+            else:
+                slice = np.rot90(image[..., int(image.shape[1] / 2), :, :], axes=(1, 2))
         elif slice_type == SliceType.CORONAL:
-            slice = np.rot90(image[..., int(image.shape[2] / 2), :], axes=(1, 2))
+            if not MNI_space:
+                slice = np.rot90(image[..., int(image.shape[2] / 2), :], axes=(1, 2))
+            else:
+                slice = np.rot90(image[..., int(image.shape[2] / 2), :], axes=(1, 2))
         elif slice_type == SliceType.AXIAL:
-            slice = np.rot90(image[..., int(image.shape[3] / 2)], axes=(1, 2), k=-1)
+            if not MNI_space:
+                slice = np.rot90(image[..., int(image.shape[3] / 2)], axes=(1, 2), k=-1)
+            else:
+                slice = np.rot90(image[..., int(image.shape[3] / 2)], axes=(1, 2))
         else:
             raise NotImplementedError("The provided slice type ({}) not found.".format(slice_type))
 
