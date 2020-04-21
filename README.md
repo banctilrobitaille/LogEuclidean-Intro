@@ -19,7 +19,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
  - Huang, Z., Wu, J., & Van Gool, L. (2019). Manifold-Valued Image Generation with Wasserstein Generative Adversarial Nets. Proceedings of the AAAI Conference on Artificial Intelligence
  - Gu, X., Knutsson, H., Nilsson, M., & Eklund, A. (2019). Generating Diffusion MRI Scalar Maps from T1 Weighted Images Using Generative Adversarial Networks. Lecture Notes in Computer Science
  - Zhong, J., Wang, Y., Li, J., Xue, X., Liu, S., Wang, M., … Li, X. (2020). Inter-site harmonization based on dual generative adversarial networks for diffusion tensor imaging: Application to neonatal white matter development. BioMedical Engineering Online
-#### Fiber bundle segmentation
+#### Fiber Bundle Segmentation
  - Wasserthal, J., Neher, P. F., & Maier-Hein, K. H. (2018). Fast and accurate white matter bundle segmentation.
 #### Advanced Topics
  - Ionescu, C., Vantzos, O., & Sminchisescu, C. (2015). Matrix backpropagation for deep networks with structured layers. In Proceedings of the IEEE International Conference on Computer Vision
