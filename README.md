@@ -30,6 +30,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
 #### Visualization
 - 3D Slicer: https://www.slicer.org/
 - Visdom: https://github.com/facebookresearch/visdom
+- TrackVis: http://www.trackvis.org/
 #### Deep Learning
 - Pytorch: https://pytorch.org/
 - Kerosene: https://github.com/banctilrobitaille/kerosene
