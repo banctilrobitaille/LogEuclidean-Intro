@@ -43,7 +43,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
     - Install Pytorch from https://pytorch.org/
     - Install other libraries: pip install -r requirements.txt
 4. Install a Jupyter kernel
-    - ipython kernel install --user --name=.venv
+    - Run: ipython kernel install --user --name=.venv
     - See: https://medium.com/@eleroy/jupyter-notebook-in-a-virtual-environment-virtualenv-8f3c3448247
 5. Run Jupyter and select the provided Jupyter notebook
     - Run: jupyter notebook
