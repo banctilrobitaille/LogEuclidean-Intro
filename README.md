@@ -19,7 +19,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
  - Huang, Z., Wu, J., & Van Gool, L. (2019). Manifold-Valued Image Generation with Wasserstein Generative Adversarial Nets. Proceedings of the AAAI Conference on Artificial Intelligence
  - Gu, X., Knutsson, H., Nilsson, M., & Eklund, A. (2019). Generating Diffusion MRI Scalar Maps from T1 Weighted Images Using Generative Adversarial Networks. Lecture Notes in Computer Science
  - Zhong, J., Wang, Y., Li, J., Xue, X., Liu, S., Wang, M., … Li, X. (2020). Inter-site harmonization based on dual generative adversarial networks for diffusion tensor imaging: Application to neonatal white matter development. BioMedical Engineering Online
-#### Fiber bundle segmentation
+#### Fiber Bundle Segmentation
  - Wasserthal, J., Neher, P. F., & Maier-Hein, K. H. (2018). Fast and accurate white matter bundle segmentation.
 #### Advanced Topics
  - Ionescu, C., Vantzos, O., & Sminchisescu, C. (2015). Matrix backpropagation for deep networks with structured layers. In Proceedings of the IEEE International Conference on Computer Vision
@@ -30,6 +30,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
 #### Visualization
 - 3D Slicer: https://www.slicer.org/
 - Visdom: https://github.com/facebookresearch/visdom
+- TrackVis: http://www.trackvis.org/
 #### Deep Learning
 - Pytorch: https://pytorch.org/
 - Kerosene: https://github.com/banctilrobitaille/kerosene
@@ -43,7 +44,7 @@ Log-Euclidean framework. It is recommended to read the proposed articles in orde
     - Install Pytorch from https://pytorch.org/
     - Install other libraries: pip install -r requirements.txt
 4. Install a Jupyter kernel
-    - ipython kernel install --user --name=.venv
+    - Run: ipython kernel install --user --name=.venv
     - See: https://medium.com/@eleroy/jupyter-notebook-in-a-virtual-environment-virtualenv-8f3c3448247
 5. Run Jupyter and select the provided Jupyter notebook
     - Run: jupyter notebook
