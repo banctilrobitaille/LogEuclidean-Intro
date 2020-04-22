@@ -11,7 +11,6 @@ import random
 import torch
 import warnings
 from functools import reduce
-from numba import guvectorize
 
 from inputs import Image, ImageType
 
@@ -188,7 +187,6 @@ class ToLogEuclidean(object):
         return self.__class__.__name__ + '()'
 
     @staticmethod
-    @guvectorize(["void(float64[:,:,:], float64[:,:,:])"], "(m,m,n) -> (m,m,n)", nopython=True)
     def apply(image_vector, output):
         index = 0
 
@@ -206,7 +204,6 @@ class ToLogEuclidean(object):
             index = index + 1
 
     @staticmethod
-    @guvectorize(["void(float32[:,:,:], float32[:,:,:])"], "(m,m,n) -> (m,m,n)", nopython=True)
     def undo(image_vector, output):
         index = 0
 
