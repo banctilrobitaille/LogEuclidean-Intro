@@ -5,7 +5,7 @@ numba>=0.42.1
 numpy==1.16.1
 pandas==0.24.1
 pytest==4.3.0
-scipy==1.2.1
+scipy==1.10.0
 torch>=1.1
 torchvision>=0.2.1
 torch-kerosene>=0.2.2
